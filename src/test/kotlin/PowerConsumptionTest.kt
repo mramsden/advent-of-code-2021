@@ -23,4 +23,9 @@ class PowerConsumptionTest {
         assertEquals(198, PowerConsumption.computePowerConsumption(input))
     }
 
+    @Test
+    fun `calculates life support rating`() {
+        assertEquals(230, PowerConsumption.lifeSupportRating(input))
+    }
+
 }
